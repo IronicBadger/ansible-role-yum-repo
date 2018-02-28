@@ -11,4 +11,4 @@ Enable, disable, create or amend repositories for yum compatible systems.
     enabled: yes
     state: present
 
-Note the example for `file://`. This allows you to mount an ISO to a directory and use this as a yum repo. Useful for disconnected installs.
+Note the `baseurl` example for `file://`. This allows you to mount an ISO to a directory and use this as a yum repo. Useful for disconnected installs. Only one `baseurl` should be specified per repo.
