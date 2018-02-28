@@ -2,6 +2,7 @@ repositories:
 - name: example
   description: example description
   baseurl: "https://example.com/rhel7"
+  #baseurl: "file:///mnt/iso"
   gpgcheck: no
   enabled: yes
   state: present
